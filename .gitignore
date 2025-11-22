@@ -923,3 +923,7 @@ config/database.yml
 *.zip
 
 # ===== END =====
+#
+# Re-include public assets for Next.js
+!public/
+!public/**
